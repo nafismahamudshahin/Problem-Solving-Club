@@ -12,10 +12,7 @@ int main(){
     float my_point = (x*1) + (y*0.5);
     float opponent_point = (z*1) + (y*0.5);
     float max_possible_point = my_point+(4 - total_round);
-    if(max_possible_point > opponent_point){
-        cout<<"Yes"<<endl;
-    }else{
-        cout<<"No"<<endl;
-    }
+    if(max_possible_point > opponent_point) cout<<"Yes"<<endl;
+    else cout<<"No"<<endl;
     return 0;
 }
